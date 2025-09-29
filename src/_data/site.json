@@ -1,4 +1,4 @@
 {
-  "title": "My Eleventy + Pages CMS Site",
-  "description": "A minimal Eleventy blog using Liquid templates."
+  "title": "My Eleventy + Pages CMS Blog",
+  "description": "A minimal Eleventy blog using Liquid templates with PagesCMS"
 }
