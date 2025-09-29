@@ -1,0 +1,15 @@
+---
+layout: layouts/base.liquid
+title: Home
+---
+
+<ul>
+  {% for post in collections.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.data.title }}</a>
+      <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+    </li>
+  {% else %}
+    <p>No posts yet — create a file in <code>src/posts/</code>.</p>
+  {% endfor %}
+</ul>

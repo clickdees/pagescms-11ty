@@ -1,0 +1,10 @@
+---
+layout: layouts/base.liquid
+---
+<article>
+  <h1>{{ title }}</h1>
+  <time datetime="{{ date | date: "%Y-%m-%d" }}">{{ date | date: "%B %d, %Y" }}</time>
+  <div>
+    {{ content }}
+  </div>
+</article>
